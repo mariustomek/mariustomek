@@ -52,7 +52,7 @@ function pagetab (name, subpages) {
 
 const games = [{name: "game1", location: "#"}, {name: "game2", location: "#"}, {name: "game3", location: "#"}];
 const developments = [{name: "login", location: "#"}, {name: "dev1", location: "#"}, {name: "dev2", location: "#"}];
-const pagelist = [page({name: "Marius Tomek", location: "/"}), pagefiller(), pagefiller(), pagefiller(), page({name: "TI HS 2026", location: "TI"})];
+const pagelist = [page({name: "Marius Tomek", location: "/"}), pagefiller(), pagefiller(), pagefiller(), page({name: "TI HS 2026", location: "/TI"})];
 //const pagelist = [page({name: "projects", location: "#"}), page({name: "chat", location: "#"}), page({name: "ASVZ AE", location: "#"}), page({name: "stat", location: "#"})];
 
 export const navbar = navbarCreate(pagelist);

@@ -66,7 +66,7 @@ export default function Home() {
                     {subtitle("Zusatzmaterial")}
                     {plaintext("white", "Im Verlaufe des Semesters werde ich zusätzliche Materialien hier bereitstellen.")}
                     {listBullet("white",
-                        file("files/TI_HS_2026/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
+                        file("/files/TI_HS_2026/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
                     )}
                     <br/>
                 </div>
