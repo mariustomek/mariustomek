@@ -17,16 +17,18 @@ export default function Home() {
                 <br/>
                 {subtitle("Teaching")}
                 {FieldGroup(
-                    LinkedProjectField("AnD HS 2022", "AnD", "Material regarding the exercise session in AnD"),
-                    LinkedProjectField("EProg HS 2022", "https://n.ethz.ch/~maxihuber/", "Webpage for the exercise session in EProg held by Josua Bürki und Maxim Huber"),
-                    LinkedProjectField("DM HS 2022", "https://n.ethz.ch/~aellison/", "Webpage for the exercise session in discrete mathematics held by Andreas Ellison"),
-                    LinkedProjectField("AnD HS 2022 jgoettle", "https://n.ethz.ch/~jgoettle/", "Webpage for the exercise session in AnD held by Johannes Göttle")
+                    LinkedProjectField("TI HS 2026", "TI", "Material for my excercises sesstions of the Theoretical Computer Science course in Autumn 2026 at ETHZ"),
+                    LinkedProjectField("AnD HS 2022", "AnD", "Material for my excercises sesstions of the Algorithms and Data Structures course I taught in Autumn 2022 at ETHZ"),
                 )}
                 {subtitle("Training")}
                 {FieldGroup(
                     LinkedProjectField("ASVZ - Swimming", "https://asvz.ch/426-sportfahrplan?f[0]=sport:45705&f[1]=instructor:6858", "Swimming lessons I am currently teaching at ASVZ")
                 )}
-                {subtitle("Miscellaneous")}
+                {subtitle("Upcomming Concerts")}
+                {FieldGroup(
+                    LinkedProjectField("ZJSO", "https://n.ethz.ch/~vdoerig/dashboard/#/", "ETHZ Dashboard for tracking tasks and lectures made by Vincent Dörig")
+                )}
+                {subtitle("Music")}
                 {FieldGroup(
                     LinkedProjectField("ETHZ Dashboard", "https://n.ethz.ch/~vdoerig/dashboard/#/", "ETHZ Dashboard for tracking tasks and lectures made by Vincent Dörig")
                 )}
