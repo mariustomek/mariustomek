@@ -51,28 +51,28 @@ export default function Home() {
                     <br/>
                     {subtitle("Folien")}
                     {listBullet("white",
-                        file("files/AND_HS_22/SlidesWeek1.pdf", "Folien Woche 1", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek2.pdf", "Folien Woche 2", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek3.pdf", "Folien Woche 3", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek4.pdf", "Folien Woche 4", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek5.pdf", "Folien Woche 5", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek6.pdf", "Folien Woche 6", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek7.pdf", "Folien Woche 7", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek8.pdf", "Folien Woche 8", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek9.pdf", "Folien Woche 9", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek10.pdf", "Folien Woche 10", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek11.pdf", "Folien Woche 11", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek12.pdf", "Folien Woche 12", "cyan-300"),
-                        file("files/AND_HS_22/SlidesWeek13.pdf", "Folien Woche 13", "cyan-300")
+                        file("/files/AND_HS_22/SlidesWeek1.pdf", "Folien Woche 1", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek2.pdf", "Folien Woche 2", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek3.pdf", "Folien Woche 3", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek4.pdf", "Folien Woche 4", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek5.pdf", "Folien Woche 5", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek6.pdf", "Folien Woche 6", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek7.pdf", "Folien Woche 7", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek8.pdf", "Folien Woche 8", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek9.pdf", "Folien Woche 9", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek10.pdf", "Folien Woche 10", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek11.pdf", "Folien Woche 11", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek12.pdf", "Folien Woche 12", "cyan-300"),
+                        file("/files/AND_HS_22/SlidesWeek13.pdf", "Folien Woche 13", "cyan-300")
                     )}
                     <br/>
                     <br/>
                     {subtitle("Zusatzmaterial")}
                     {listBullet("white",
-                        file("files/AND_HS_22/Zusammenfassung_Sortieralgorithmen.pdf", "Zusammenfassung zu Sortieralgorithmen", "cyan-300"),
-                        file("files/AND_HS_22/Graphen_Terminologie.pdf", "Terminologie von Graphen", "cyan-300"),
-                        file("files/AND_HS_22/Vorlesung_ADT.pdf", "Vorlesungsnotizen zu Abstract Datatypes", "cyan-300"),
-                        file("files/AND_HS_22/Formelsammlung_Algorithmen_2022-11-21.pdf", "Formelsammlung (full version)", "cyan-300"),
+                        file("/files/AND_HS_22/Zusammenfassung_Sortieralgorithmen.pdf", "Zusammenfassung zu Sortieralgorithmen", "cyan-300"),
+                        file("/files/AND_HS_22/Graphen_Terminologie.pdf", "Terminologie von Graphen", "cyan-300"),
+                        file("/files/AND_HS_22/Vorlesung_ADT.pdf", "Vorlesungsnotizen zu Abstract Datatypes", "cyan-300"),
+                        file("/files/AND_HS_22/Formelsammlung_Algorithmen_2022-11-21.pdf", "Formelsammlung (full version)", "cyan-300"),
                         page("https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",  "Grafische Simulation von Algorithmen", "cyan-300"),
                         page("https://www.cs.usfca.edu/~galles/visualization/AVLtree.html",  "Grafische Simulation eines AVL Trees", "cyan-300")
                     )}

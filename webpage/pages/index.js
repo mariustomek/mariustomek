@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FieldGroup, ProjectField, LinkedProjectField } from '/components/fields'
 import { navbar } from '/components/navbar'
-import { name, subtitle, title } from '/components/text'
+import { name, subtitle, title, plaintext } from '/components/text'
 
 export default function Home() {
     return (
@@ -22,16 +22,18 @@ export default function Home() {
                 )}
                 {subtitle("Training")}
                 {FieldGroup(
-                    LinkedProjectField("ASVZ - Swimming", "https://asvz.ch/426-sportfahrplan?f[0]=sport:45705&f[1]=instructor:6858", "Swimming lessons I am currently teaching at ASVZ")
+                    LinkedProjectField("ASVZ - Cycling", "https://asvz.ch/426-sportfahrplan?f[0]=sport:45645&f[1]=instructor:6858", "I am currently teaching cycling classes at the following days:", " - Tuesday 12:15 - 13:15 at Poly", " - Wednesday 12:15 - 13:15 at Irchel", " - Thursday 12:15 - 13:15 at Irchel"),
+                    LinkedProjectField("ASVZ - Swimming", "https://asvz.ch/426-sportfahrplan?f[0]=sport:45705&f[1]=instructor:6858", "I am currently teaching swimming classes at the following days:", " - Tuesday 21:00 - 22:00 at Bad Bungertwies", " - Friday 12:00 - 13:30 at Bad Bungertwies")
                 )}
                 {subtitle("Upcomming Concerts")}
                 {FieldGroup(
-                    LinkedProjectField("ZJSO", "https://n.ethz.ch/~vdoerig/dashboard/#/", "ETHZ Dashboard for tracking tasks and lectures made by Vincent Dörig")
+                    LinkedProjectField("ZJSO - Panta Rhei", "https://www.kkl-luzern.ch/tickets/6a6c8d5c731502bf5e0f96d9", "Panta Rhei is a concert of the Youth Symphony Orchestra of Central Switzerland (ZJSO). The concert will take place on 04. October 2026 at KKL in Lucerne."),
                 )}
                 {subtitle("Music")}
-                {FieldGroup(
+                {plaintext("white", "To be added...")}
+                {/*FieldGroup(
                     LinkedProjectField("ETHZ Dashboard", "https://n.ethz.ch/~vdoerig/dashboard/#/", "ETHZ Dashboard for tracking tasks and lectures made by Vincent Dörig")
-                )}
+                )*/}
 
                 {/*{subtitle("Projects")}
                 {FieldGroup(

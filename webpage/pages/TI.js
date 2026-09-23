@@ -17,6 +17,7 @@ export default function Home() {
                 <br/>
                 <div className="max-w-screen-lg relative">
                 <div className="top-0 left-0">
+                    {plaintext("white", "Bei Inhaltlichen oder Technischen Fehlern dieser Webseite bin ich froh über eine kleine Nachricht.")}
                     {subtitle("Generelle Informationen")}
                     {listBullet("white",
                         "Gruppe: 07 / Mi 16:00 - 18:00 / CHN D 44",
@@ -58,7 +59,7 @@ export default function Home() {
                     {subtitle("Folien")}
                     {plaintext("white", "Die Folien zur jeweiligen Übungsstunde werden hier nach der Stunde zur Verfügung gestellt.")}
                     {listBullet("white",
-                        file("files/TI_HS_2026/SlidesWeek1.pdf", "Folien Woche 1", "cyan-300"),
+                        file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),
                         "Folien Woche 2"
                     )}
                     <br/>
@@ -66,7 +67,7 @@ export default function Home() {
                     {subtitle("Zusatzmaterial")}
                     {plaintext("white", "Im Verlaufe des Semesters werde ich zusätzliche Materialien hier bereitstellen.")}
                     {listBullet("white",
-                        file("/files/TI_HS_2026/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
+                        file("/files/TI_HS_26/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
                     )}
                     <br/>
                 </div>
