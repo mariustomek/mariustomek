@@ -20,7 +20,7 @@ export default function Home() {
                     {plaintext("white", "Bei Inhaltlichen oder Technischen Fehlern dieser Webseite bin ich froh über eine kleine Nachricht.")}
                     {subtitle("Generelle Informationen")}
                     {listBullet("white",
-                        "Gruppe: 07 / Mi 16:00 - 18:00 / CHN D 44",
+                        "Gruppe: 07 / Mi 16:15 - 18:00 / CHN D 44",
                         "Vorlesung: Di 08:15 - 10:00 (HG E 7) / Fr 08:15 - 10:00 (HG E 7)",
                         page("https://moodle-app2.let.ethz.ch/course/view.php?id=29077",  "Moodle Kurs", "cyan-300"),
                         page("https://courses.algodi.inf.ethz.ch/theoinf-2026/",  "Vorlesungswebseite", "cyan-300")
@@ -59,8 +59,8 @@ export default function Home() {
                     {subtitle("Folien")}
                     {plaintext("white", "Die Folien zur jeweiligen Übungsstunde werden hier nach der Stunde zur Verfügung gestellt.")}
                     {listBullet("white",
-                        /*file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),*/
-                        "Folien Woche 1"
+                        file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),
+                        "Folien Woche 2"
                     )}
                     <br/>
                     <br/>
