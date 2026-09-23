@@ -59,16 +59,16 @@ export default function Home() {
                     {subtitle("Folien")}
                     {plaintext("white", "Die Folien zur jeweiligen Übungsstunde werden hier nach der Stunde zur Verfügung gestellt.")}
                     {listBullet("white",
-                        file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),
-                        "Folien Woche 2"
+                        /*file("/files/TI_HS_26/slides_week01.pdf", "Folien Woche 1", "cyan-300"),*/
+                        "Folien Woche 1"
                     )}
                     <br/>
                     <br/>
                     {subtitle("Zusatzmaterial")}
                     {plaintext("white", "Im Verlaufe des Semesters werde ich zusätzliche Materialien hier bereitstellen.")}
-                    {listBullet("white",
+                    {/*listBullet("white",
                         file("/files/TI_HS_26/Beweisideen101.pdf", "Beweisideen101 von Nicolas Wehrli", "cyan-300"),
-                    )}
+                    )*/}
                     <br/>
                 </div>
                 </div>
