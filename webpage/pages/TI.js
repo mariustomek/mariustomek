@@ -9,7 +9,7 @@ export default function Home() {
         <div className="top-0 left-0 right-0 min-h-screen py-24 bg-gray-900 max-w-screen absolute">
             <Head>
                 <title>Marius Tomek - TI HS 2026</title>
-                <link rel="icon" href="ETH_head.png" />
+                <link rel="icon" href="/ETH_head.png" />
             </Head>
             <body className="h-full max-w-screen-lg mx-auto static">
                 {navbar}
